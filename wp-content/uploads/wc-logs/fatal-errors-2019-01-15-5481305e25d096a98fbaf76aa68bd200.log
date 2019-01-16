@@ -1,0 +1,79 @@
+2019-01-15T03:57:02+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_error() in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php:38
+Stack trace:
+#0 /var/www/test/wp-includes/class-wp-hook.php(286): wp_language_activate(false)
+#1 /var/www/test/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/test/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/test/wp-admin/includes/plugin.php(598): do_action('activate_wordpr...', false)
+#4 /var/www/test/wp-admin/includes/plugin.php(759): activate_plugin('wordpress-langu...', 'http://test.exa...', false, false)
+#5 /var/www/test/wp-admin/plugins.php(106): activate_plugins(Array, 'http://test.exa...', false)
+#6 {main}
+  thrown in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php on line 38
+
+2019-01-15T03:57:03+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_error() in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php:38
+Stack trace:
+#0 /var/www/test/wp-includes/class-wp-hook.php(286): wp_language_activate('')
+#1 /var/www/test/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/test/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/test/wp-admin/plugins.php(174): do_action('activate_wordpr...')
+#4 {main}
+  thrown in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php on line 38
+
+2019-01-15T03:57:03+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_error() in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php:38
+Stack trace:
+#0 /var/www/test/wp-includes/class-wp-hook.php(286): wp_language_activate('')
+#1 /var/www/test/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/test/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/test/wp-admin/plugins.php(174): do_action('activate_wordpr...')
+#4 {main}
+  thrown in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php on line 38
+
+2019-01-15T05:42:10+00:00 CRITICAL Cannot declare class Flatsome_Default, because the name is already in use in /var/www/test/wp-content/themes/flatsome/inc/classes/class-flatsome-default.php on line 18
+
+2019-01-15T05:43:19+00:00 CRITICAL Uncaught Error: Call to undefined function flatsome_sidebar_classes() in /var/www/test/wp-content/themes/duoc-pham/functions.php:8
+Stack trace:
+#0 /var/www/test/wp-settings.php(441): include()
+#1 /var/www/test/wp-config.php(89): require_once('/var/www/test/w...')
+#2 /var/www/test/wp-load.php(37): require_once('/var/www/test/w...')
+#3 /var/www/test/wp-admin/admin.php(31): require_once('/var/www/test/w...')
+#4 /var/www/test/wp-admin/theme-editor.php(10): require_once('/var/www/test/w...')
+#5 {main}
+  thrown in /var/www/test/wp-content/themes/duoc-pham/functions.php on line 8
+
+2019-01-15T05:44:40+00:00 CRITICAL Uncaught Error: Call to undefined function flatsome_sidebar_classes() in /var/www/test/wp-content/themes/duoc-pham/functions.php:8
+Stack trace:
+#0 /var/www/test/wp-settings.php(441): include()
+#1 /var/www/test/wp-config.php(89): require_once('/var/www/test/w...')
+#2 /var/www/test/wp-load.php(37): require_once('/var/www/test/w...')
+#3 /var/www/test/wp-admin/admin.php(31): require_once('/var/www/test/w...')
+#4 /var/www/test/wp-admin/theme-editor.php(10): require_once('/var/www/test/w...')
+#5 {main}
+  thrown in /var/www/test/wp-content/themes/duoc-pham/functions.php on line 8
+
+2019-01-15T06:24:50+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_error() in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php:38
+Stack trace:
+#0 /var/www/test/wp-includes/class-wp-hook.php(286): wp_language_activate(false)
+#1 /var/www/test/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/test/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/test/wp-admin/includes/plugin.php(598): do_action('activate_wordpr...', false)
+#4 /var/www/test/wp-admin/plugins.php(43): activate_plugin('wordpress-langu...', 'http://test.exa...', false)
+#5 {main}
+  thrown in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php on line 38
+
+2019-01-15T06:24:51+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_error() in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php:38
+Stack trace:
+#0 /var/www/test/wp-includes/class-wp-hook.php(286): wp_language_activate('')
+#1 /var/www/test/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/test/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/test/wp-admin/plugins.php(174): do_action('activate_wordpr...')
+#4 {main}
+  thrown in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php on line 38
+
+2019-01-15T06:24:51+00:00 CRITICAL Uncaught Error: Call to undefined function mysql_error() in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php:38
+Stack trace:
+#0 /var/www/test/wp-includes/class-wp-hook.php(286): wp_language_activate('')
+#1 /var/www/test/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/test/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/test/wp-admin/plugins.php(174): do_action('activate_wordpr...')
+#4 {main}
+  thrown in /var/www/test/wp-content/plugins/wordpress-language/inc/schema.php on line 38
+
